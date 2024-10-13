@@ -1,0 +1,133 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 7px 7px 4px black;
+}
+
+.image img {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.info {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: justify;
+}
+
+.info button {
+  padding: 6px;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+}
+
+.info h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.p-info {
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil p {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 2rem;
+  display: flex;
+}
+footer img {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.social-card {
+  display: flex;
+  width: 50px;
+  flex-direction: row;
+  gap: 0.8em;
+  padding: 2px;
+}
+.btn-github {
+  border-radius: 4px;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-github:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.btn-github:hover .github {
+  fill: white;
+}
+
+.brn-front-Mentor {
+  border-radius: 4px;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.front-Mentor {
+  fill: #8c9eff;
+}
+
+.brn-front-Mentor:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.brn-front-Mentor:hover .front-Mentor {
+  fill: white;
+}
